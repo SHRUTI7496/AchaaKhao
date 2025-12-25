@@ -1,0 +1,125 @@
+.brand_logo {
+  height: 350px;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.collection_title {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 5px;
+  font-size: 40px;
+  color: #000000;
+}
+
+.product_logo {
+  width: 300px;
+  height: 300px;
+}
+
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Product_Name {
+  font-size: 25px;
+  color: #000000;
+  font-family: "Proza Libre", sans-serif;
+}
+
+.Product_price {
+  padding-top: 5px;
+  font-family: Inter, sans-serif;
+}
+
+.original_price {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.Final_price {
+  padding-left: 15px;
+  font-size: 21px;
+  color: #000000;
+}
+
+.Cart {
+  padding-top: 10px;
+}
+
+.AddToCart {
+  width: 300px;
+  height: 50px;
+  border-radius: 42px;
+  margin-bottom: 22px;
+}
+
+.logo_label {
+  width: 100%;
+  height: 350px;
+}
+
+.logo_label1 {
+  width: 100%;
+  height: 20px;
+}
+
+.product {
+  padding-top: 15px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.site {
+  font-size: 40px;
+  text-align: center;
+}
+
+.availabilty_On {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-btn img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .whatsapp-btn img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+footer {
+  margin-bottom: 100px;
+}
